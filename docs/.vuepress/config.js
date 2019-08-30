@@ -7,8 +7,8 @@ module.exports = {
 		nav: [
 			{ text: 'home', link: '/' },
 			{ text: 'blog', link: '/blog/' },
-		  { text: 'github', link: 'https://github.com/dumingcode' },
-		  { text: 'weibo', link: 'https://weibo.com/jake1036?refer_flag=1001030201_&display=0&retcode=6102' }
+		    { text: 'github', link: 'https://github.com/dumingcode' },
+		    { text: 'weibo', link: 'https://weibo.com/jake1036?refer_flag=1001030201_&display=0&retcode=6102' }
 		],
 		sidebar: [
 			{
@@ -24,6 +24,13 @@ module.exports = {
 				collapsable: true, // 可折叠
 				children: [
 				'/blog/2018-04-22-软技能代码之外的生存指南读书心得.md'
+				]
+			},
+			{
+				title: 'vue', // 侧边栏名称
+				collapsable: true, // 可折叠
+				children: [
+				'/vue/test.md'
 				]
 	   		}
 		]
