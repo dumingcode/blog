@@ -3,6 +3,8 @@ module.exports = {
   description: '笨鸟的blog',
   theme: '',
   themeConfig: {
+	lastUpdated: 'Last Updated',
+	date_format: 'yyyy-MM-dd HH:mm:ss',
     nav: [
       { text: 'blog', link: '/blog/' },
 	  { text: 'github', link: 'https://github.com/dumingcode' },
