@@ -95,13 +95,13 @@ export default {
               date: date,
               tag: archive.split('/')[2],
               title: temps.join('-'),
-              url: archive
+              url: archive+'.html'
             })
             this.allPost.push({
               date: date,
               tag: archive.split('/')[2],
               title: temps.join('-'),
-              url: archive
+              url: archive+'.html'
             })
           }
         })
