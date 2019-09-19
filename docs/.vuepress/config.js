@@ -193,7 +193,8 @@ module.exports = {
           '/blog/devops/2019-05-16-源码编译安装nodejs',
           '/blog/devops/2019-05-16-阿里云内网机通过代理访问外网',
           '/blog/devops/2019-06-03-redis集群部署与数据迁移',
-          '/blog/devops/2019-08-14-skyWalking部署'
+          '/blog/devops/2019-08-14-skyWalking部署',
+          '/blog/devops/2019-09-19-docker学习总结'
         ]
       }
     ]
